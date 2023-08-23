@@ -1,0 +1,162 @@
+:root {
+    --primary: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --LightGrey: hsl(217, 12%, 63%);
+    --MediumGrey: hsl(216, 12%, 54%);
+    --DarkBlue: hsl(213, 19%, 18%);
+    --VeryDarkBlue: hsl(216, 12%, 8%);
+    
+    --fuentePrincipal:'Overpass', sans-serif;
+    
+}
+
+html {
+    font-size: 62.5%;   
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+body {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    font-family: var(--fuentePrincipal);
+    color: var(--White);
+    
+    background: rgb(1,1,1);
+    
+}
+
+
+.container{
+    position: relative;
+    top: 25rem;
+    max-width: 40rem;
+    height: 35rem;
+    margin: 0 auto;
+    width: 90%;
+    background:linear-gradient(var(--DarkBlue),var(--VeryDarkBlue));
+    border-radius: 2.5rem;
+    padding: 2.5rem;
+}
+
+.header__svg{
+   
+    position: relative;
+    left: -0.5rem;
+    
+
+    background-color: var(--VeryDarkBlue);
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+}
+
+svg{
+    position: relative;
+    left: 1.2rem;
+    top: 1rem;
+}
+
+.header__heading{
+    margin-top: 1rem;
+}
+
+
+/*Description*/
+
+.description__p{
+    margin-top: -2rem;
+    color: var(--MediumGrey);
+    
+}
+
+
+
+/*Rates*/
+.rates{
+    display: flex;
+    justify-content:space-around
+    
+}
+.rates__btn{
+    border-radius: 50%;
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: var(--DarkBlue) ;
+    color: var(--LightGrey);
+    border: none;
+    cursor: pointer;
+}
+
+.rates__btn:hover{
+    background-color: var(--LightGrey);
+    color: var(--White);
+}
+
+
+/*Submit*/
+
+
+.submit__a{
+    background-color: var(--primary);
+    padding: 0.5rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    color: var(--White);
+    text-decoration: none;
+    cursor: pointer;
+
+
+}
+
+
+.submit__a:hover{
+    background-color: var(--White);
+    color: var(--primary);
+}
+
+
+
+.click{
+    color: var(--White);
+    background-color: var(--primary);
+}
+
+
+
+/**Thank you*/
+
+
+.thankyouheader__svg{
+    position: relative;
+    left: 8rem;
+}
+
+.thankyouheader__p{
+    background-color: var(--DarkBlue);
+    color: var(--primary);
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    width: 17rem;
+    margin: 0 auto;
+    margin-top:  2rem;
+}
+
+
+.maninty__heading{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.maninty__text{
+    margin-top: -3rem;
+    padding: 1rem;
+    color: var(--MediumGrey);
+    text-align: center;
+}
